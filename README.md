@@ -14,7 +14,7 @@ The project demonstrates a full data science workflow, including:
 - Development of an interactive web application to serve the final model.
 
 ## Key Steps & Methodology
-Exploratory Data Analysis (EDA): The SalePrice target variable was found to be right-skewed and was log-transformed to normalize its distribution. A correlation analysis identified key features like OverallQual, GrLivArea, and TotalBsmtSF as strong predictors.
+- Exploratory Data Analysis (EDA): The SalePrice target variable was found to be right-skewed and was log-transformed to normalize its distribution. A correlation analysis identified key features like OverallQual, GrLivArea, and TotalBsmtSF as strong predictors.
 
 - Feature Engineering: A systematic approach was taken to handle the dataset's extensive missing values, imputing them based on the data dictionary's descriptions. Skewed numerical features were log-transformed, and categorical features were converted to a numerical format using one-hot encoding. New features, such as TotalSF, were created to capture combined effects.
 
