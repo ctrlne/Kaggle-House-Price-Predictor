@@ -35,12 +35,12 @@ The project demonstrates a full data science workflow, including:
 
 ## How to Run
 1. Setup: Clone the repository and install the required packages:
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm joblib streamlit
+`pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm joblib streamlit`
 
 2. Run the Notebook: Open and run the House_Price_Prediction_Notebook.ipynb in JupyterLab to perform the analysis and generate the model files.
 
 3. Launch the App: In your terminal, run the following command:
-streamlit run app.py
+`streamlit run app.py`
 
 ## Tech Stack
 - Languages & Libraries: Python, Pandas, NumPy, Scikit-learn
